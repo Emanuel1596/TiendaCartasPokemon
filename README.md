@@ -8,6 +8,7 @@ Una aplicación web en donde se busca administrar y visualizar un inventario de 
 
 - [@Contreras González André Yahir](https://github.com/XxTiny2099xX)
 - [@Laurrabaquio Ramírez Bryan Ricardo ](https://github.com/bryanlaurrabaquio)
+- [@Mejia Osornio Valeria ](https://github.com/ba777e)
 - [@Romero Palacios Randy Rodrigo](https://github.com/RandyPalacios02)
 - [@Villanueva García Emanuel](https://github.com/Emanuel1596)
 
