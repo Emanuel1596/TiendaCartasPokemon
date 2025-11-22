@@ -1,0 +1,7 @@
+com/tiendacartaspokemon/model/Carta.class
+com/tiendacartaspokemon/service/CartaServiceProxy.class
+com/tiendacartaspokemon/TiendaCartasPokemonApplication.class
+com/tiendacartaspokemon/model/RolUsuario.class
+com/tiendacartaspokemon/controller/CartaController.class
+com/tiendacartaspokemon/service/CartaServiceImpl.class
+com/tiendacartaspokemon/service/CartaService.class

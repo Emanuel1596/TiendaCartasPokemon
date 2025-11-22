@@ -1,0 +1,7 @@
+/workspaces/TiendaCartasPokemon/backend/src/main/java/com/tiendacartaspokemon/TiendaCartasPokemonApplication.java
+/workspaces/TiendaCartasPokemon/backend/src/main/java/com/tiendacartaspokemon/controller/CartaController.java
+/workspaces/TiendaCartasPokemon/backend/src/main/java/com/tiendacartaspokemon/model/Carta.java
+/workspaces/TiendaCartasPokemon/backend/src/main/java/com/tiendacartaspokemon/model/RolUsuario.java
+/workspaces/TiendaCartasPokemon/backend/src/main/java/com/tiendacartaspokemon/service/CartaService.java
+/workspaces/TiendaCartasPokemon/backend/src/main/java/com/tiendacartaspokemon/service/CartaServiceImpl.java
+/workspaces/TiendaCartasPokemon/backend/src/main/java/com/tiendacartaspokemon/service/CartaServiceProxy.java

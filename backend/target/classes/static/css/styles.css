@@ -1,0 +1,150 @@
+/* Fondo general tipo Pokémon */ 
+body.pokemon-bg {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #ffde00, #3b4cca);
+    min-height: 100vh;
+}
+
+/* Encabezado */
+.header {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 1rem 2rem;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.header nav a {
+    margin: 0 0.5rem;
+    text-decoration: none;
+    color: #3b4cca;
+    font-weight: bold;
+}
+
+/* Contenido principal */
+main {
+    padding: 1.5rem;
+}
+
+/* Tarjetas principales (formulario y catálogo) */
+.catalogo,
+.form-section {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 1rem;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.catalogo h2,
+.form-section h2 {
+    margin-top: 0;
+}
+
+/* ============================
+   GRID DE CARTAS
+   ============================ */
+
+.cartas-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+/* Tarjeta de cada carta (card) */
+.carta-card {
+    width: 260px;                /* tamaño de la tarjeta */
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 1rem;
+    box-sizing: border-box;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Imagen de la carta: tamaño controlado */
+.carta-card img.carta-img {
+    display: block;
+    width: 190px;    /* ANCHO de la imagen */
+    height: 260px;   /* ALTO de la imagen */
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 0 auto 0.75rem auto;
+}
+
+/* Texto dentro de la card */
+.carta-card h3 {
+    margin: 0 0 0.4rem 0;
+    font-size: 1rem;
+    text-align: left;
+    width: 100%;
+}
+
+.carta-card p {
+    margin: 0;
+    font-size: 0.85rem;
+    text-align: left;
+    width: 100%;
+}
+
+/* Botones (estilo general) */
+button {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 999px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+/* Inputs de texto / número */
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    padding: 0.4rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+/* MENÚ DESPLEGABLE (select) */
+select {
+    display: block;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    padding: 0.4rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: 1rem;
+    background-color: #fff;
+}
+
+/* ============================
+   BOTONES DENTRO DE CADA CARTA
+   (Editar / Eliminar separados)
+   ============================ */
+.carta-card button {
+    display: block;        /* cada botón en su propia línea */
+    width: 80%;            /* un poco más anchos y centrados */
+    max-width: 140px;      /* límite para que no se pasen */
+    margin: 0.35rem auto;  /* separación vertical entre ellos */
+}
